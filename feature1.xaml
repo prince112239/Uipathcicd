@@ -91,7 +91,7 @@
         </OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String" xml:space="preserve">klk ok ok </InArgument>
+        <InArgument x:TypeArguments="x:String">kl</InArgument>
       </Assign.Value>
     </Assign>
     <Sequence sap:VirtualizedContainerService.HintSize="334,84.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
