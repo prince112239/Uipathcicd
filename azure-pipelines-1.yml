@@ -19,9 +19,11 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: UiPathDeploy@2
+
+- task: UiPathRunJob@2
   inputs:
     orchestratorConnection: 'ConnectFin'
-    packagesPath: 'C:\Users\Prince\Documents\UiPath\pkg'
-    folderName: 'dev'
-    entryPoints: 'Main.xaml'
+    processName: 'RunCICD'
+    folderName: 'Shared'
+    user: 'desktop-4m969hi\prince'
+    
